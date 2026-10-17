@@ -1,0 +1,15 @@
+{
+  "name": "low_signal",
+  "description": "Robustness: same generator with response_scale 0.18, i.e. oracle AUC 0.81 rather than 0.9703. Tests the 'well-fit model on lower-signal data' reading of Fig. 14.",
+  "data": {
+    "n_rows": 250000, "n_segments": 5, "n_signal": 5, "n_noise": 5,
+    "corr": 0.5, "coef_low": -3.0, "coef_high": 3.0, "coef_mode": "per_segment",
+    "missing_features": ["x1", "x2", "x3"], "missing_rate": 0.5,
+    "missing_mechanism": "mcar", "train_frac": 0.6, "val_frac": 0.2,
+    "seed": 20230272, "response_scale": 0.18
+  },
+  "model": {"kind": "rf", "params": {"n_estimators": 40, "min_samples_leaf": 100, "max_features": "sqrt"}},
+  "methods": ["none", "cluster", "decile", "mean", "median", "indicator", "tree"],
+  "seeds": [0, 1, 2],
+  "out_csv": "results/low_signal.csv"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "smoke",
+  "description": "Fast end-to-end check: 40K rows, 2 iterations.",
+  "data": {
+    "n_rows": 40000, "n_segments": 5, "n_signal": 5, "n_noise": 5,
+    "corr": 0.5, "coef_low": -3.0, "coef_high": 3.0, "coef_mode": "per_segment",
+    "missing_features": ["x1", "x2", "x3"], "missing_rate": 0.5,
+    "missing_mechanism": "mcar", "train_frac": 0.6, "val_frac": 0.2,
+    "seed": 20230272
+  },
+  "model": {"kind": "rf", "params": {"n_estimators": 20, "max_depth": 4}},
+  "methods": ["none", "cluster", "decile", "mean", "median", "indicator", "tree"],
+  "seeds": [0, 1],
+  "out_csv": "results/smoke.csv"
+}
