@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the original paper it replicates, and this repository."
+title: "Null-imputation benchmark: replication and deployment extension of 2OS (2023), Group 10"
+abstract: >-
+  A reproducible reconstruction of the null-imputation experiment in
+  "A Comparison of Modeling Preprocessing Techniques" (2nd Order Solutions,
+  arXiv:2302.12042), covering the GAM-global synthetic data set with a Random
+  Forest, plus a deployment-oriented extension covering preprocessing cost,
+  missing-data budgets, missingness mechanisms and feature irreplaceability.
+version: "1.0.0"
+date-released: "2026-10-17"
+license: MIT
+type: software
+
+preferred-citation:
+  type: article
+  title: "A Comparison of Modeling Preprocessing Techniques"
+  authors:
+    - family-names: "Johnson"
+      given-names: "Tosan"
+    - family-names: "Liu"
+      given-names: "Alice J."
+    - family-names: "Raza"
+      given-names: "Syed"
+    - family-names: "McGuire"
+      given-names: "Aaron"
+  year: 2023
+  journal: "arXiv preprint arXiv:2302.12042"
+  doi: "10.48550/arXiv.2302.12042"
+  url: "https://arxiv.org/abs/2302.12042"

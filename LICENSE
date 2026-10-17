@@ -1,0 +1,34 @@
+MIT License
+
+Copyright (c) 2026 Group 10
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+Note on third-party material
+
+This repository reimplements the methodology described in:
+
+    Johnson, Liu, Raza & McGuire, "A Comparison of Modeling Preprocessing
+    Techniques", 2nd Order Solutions, arXiv:2302.12042 (2023).
+
+The paper itself is not redistributed here, and neither are its figures.
+`scripts/extract_paper_figure.py` will regenerate the comparison figure from
+a copy of the PDF that you obtain yourself (e.g. from arXiv).
+The MIT licence above covers this repository's code and text only.
