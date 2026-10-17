@@ -1,0 +1,351 @@
+{
+  "standard_rf": {
+    "mean": {
+      "Clustering Imputation": 0.8998,
+      "Decile Imputation": 0.9024,
+      "Mean Imputation": 0.9012,
+      "Median Imputation": 0.9013,
+      "Missing Indicator Imputation": 0.9021,
+      "No Missing": 0.9316,
+      "Tree Imputation": 0.8972
+    },
+    "std": {
+      "Clustering Imputation": 0.0021,
+      "Decile Imputation": 0.0013,
+      "Mean Imputation": 0.0014,
+      "Median Imputation": 0.0016,
+      "Missing Indicator Imputation": 0.0014,
+      "No Missing": 0.0017,
+      "Tree Imputation": 0.002
+    },
+    "count": {
+      "Clustering Imputation": 8,
+      "Decile Imputation": 8,
+      "Mean Imputation": 8,
+      "Median Imputation": 8,
+      "Missing Indicator Imputation": 8,
+      "No Missing": 8,
+      "Tree Imputation": 8
+    }
+  },
+  "depth2": {
+    "mean": {
+      "Clustering Imputation": 0.7796,
+      "Decile Imputation": 0.7795,
+      "Mean Imputation": 0.7795,
+      "Median Imputation": 0.7795,
+      "Missing Indicator Imputation": 0.7795,
+      "No Missing": 0.7866,
+      "Tree Imputation": 0.7771
+    },
+    "std": {
+      "Clustering Imputation": 0.0033,
+      "Decile Imputation": 0.0033,
+      "Mean Imputation": 0.0033,
+      "Median Imputation": 0.0033,
+      "Missing Indicator Imputation": 0.0018,
+      "No Missing": 0.0029,
+      "Tree Imputation": 0.0032
+    },
+    "count": {
+      "Clustering Imputation": 15,
+      "Decile Imputation": 15,
+      "Mean Imputation": 15,
+      "Median Imputation": 15,
+      "Missing Indicator Imputation": 15,
+      "No Missing": 15,
+      "Tree Imputation": 15
+    }
+  },
+  "null_rate": {
+    "Clustering": {
+      "0.1": 0.9234,
+      "0.3": 0.9112,
+      "0.5": 0.8996,
+      "0.7": 0.8905
+    },
+    "Decile": {
+      "0.1": 0.925,
+      "0.3": 0.9136,
+      "0.5": 0.9025,
+      "0.7": 0.8922
+    },
+    "Mean": {
+      "0.1": 0.9239,
+      "0.3": 0.9118,
+      "0.5": 0.902,
+      "0.7": 0.8918
+    },
+    "Median": {
+      "0.1": 0.924,
+      "0.3": 0.9118,
+      "0.5": 0.9021,
+      "0.7": 0.8921
+    },
+    "Missing Indicator": {
+      "0.1": 0.9259,
+      "0.3": 0.9135,
+      "0.5": 0.9018,
+      "0.7": 0.8926
+    },
+    "No Missing": {
+      "0.1": 0.931,
+      "0.3": 0.931,
+      "0.5": 0.931,
+      "0.7": 0.931
+    },
+    "Tree": {
+      "0.1": 0.9194,
+      "0.3": 0.9063,
+      "0.5": 0.8969,
+      "0.7": 0.8892
+    }
+  },
+  "mechanism": {
+    "mar": {
+      "Mean Imputation": 0.8995,
+      "Median Imputation": 0.8998,
+      "Missing Indicator Imputation": 0.9016,
+      "No Missing": 0.931,
+      "Tree Imputation": 0.8999
+    },
+    "mcar": {
+      "Mean Imputation": 0.902,
+      "Median Imputation": 0.9021,
+      "Missing Indicator Imputation": 0.9018,
+      "No Missing": 0.931,
+      "Tree Imputation": 0.8969
+    },
+    "mnar": {
+      "Mean Imputation": 0.9039,
+      "Median Imputation": 0.9026,
+      "Missing Indicator Imputation": 0.9018,
+      "No Missing": 0.931,
+      "Tree Imputation": 0.902
+    }
+  },
+  "irreplaceability": [
+    {
+      "n_missing_signal": 1,
+      "mean_penalty": 0.0125,
+      "spread": 0.0016
+    },
+    {
+      "n_missing_signal": 2,
+      "mean_penalty": 0.0214,
+      "spread": 0.0035
+    },
+    {
+      "n_missing_signal": 3,
+      "mean_penalty": 0.0296,
+      "spread": 0.006
+    },
+    {
+      "n_missing_signal": 5,
+      "mean_penalty": 0.0954,
+      "spread": 0.0079
+    }
+  ],
+  "cost_scaling": [
+    {
+      "n_features": 10,
+      "n_missing_features": 3,
+      "method": "Mean Imputation",
+      "fit_s": 0.0236,
+      "score_s_per_1m": 0.0836,
+      "peak_mem_mb": 70.3672
+    },
+    {
+      "n_features": 10,
+      "n_missing_features": 3,
+      "method": "Median Imputation",
+      "fit_s": 0.0413,
+      "score_s_per_1m": 0.0959,
+      "peak_mem_mb": 72.6953
+    },
+    {
+      "n_features": 10,
+      "n_missing_features": 3,
+      "method": "Missing Indicator Imputation",
+      "fit_s": 0.0001,
+      "score_s_per_1m": 0.1344,
+      "peak_mem_mb": 92.3633
+    },
+    {
+      "n_features": 10,
+      "n_missing_features": 3,
+      "method": "Decile Imputation",
+      "fit_s": 0.0757,
+      "score_s_per_1m": 0.0695,
+      "peak_mem_mb": 76.0469
+    },
+    {
+      "n_features": 10,
+      "n_missing_features": 3,
+      "method": "Clustering Imputation",
+      "fit_s": 1.2572,
+      "score_s_per_1m": 0.1707,
+      "peak_mem_mb": 76.7852
+    },
+    {
+      "n_features": 10,
+      "n_missing_features": 3,
+      "method": "Tree Imputation",
+      "fit_s": 0.1806,
+      "score_s_per_1m": 0.1385,
+      "peak_mem_mb": 76.1953
+    },
+    {
+      "n_features": 30,
+      "n_missing_features": 10,
+      "method": "Mean Imputation",
+      "fit_s": 0.0562,
+      "score_s_per_1m": 0.3452,
+      "peak_mem_mb": 226.3594
+    },
+    {
+      "n_features": 30,
+      "n_missing_features": 10,
+      "method": "Median Imputation",
+      "fit_s": 0.1562,
+      "score_s_per_1m": 0.3058,
+      "peak_mem_mb": 225.7539
+    },
+    {
+      "n_features": 30,
+      "n_missing_features": 10,
+      "method": "Missing Indicator Imputation",
+      "fit_s": 0.0001,
+      "score_s_per_1m": 0.4673,
+      "peak_mem_mb": 304.9297
+    },
+    {
+      "n_features": 30,
+      "n_missing_features": 10,
+      "method": "Decile Imputation",
+      "fit_s": 0.2595,
+      "score_s_per_1m": 0.3069,
+      "peak_mem_mb": 219.918
+    },
+    {
+      "n_features": 30,
+      "n_missing_features": 10,
+      "method": "Clustering Imputation",
+      "fit_s": 4.021,
+      "score_s_per_1m": 0.6255,
+      "peak_mem_mb": 228.6484
+    },
+    {
+      "n_features": 30,
+      "n_missing_features": 10,
+      "method": "Tree Imputation",
+      "fit_s": 0.615,
+      "score_s_per_1m": 0.5359,
+      "peak_mem_mb": 216.3594
+    },
+    {
+      "n_features": 60,
+      "n_missing_features": 20,
+      "method": "Mean Imputation",
+      "fit_s": 0.1171,
+      "score_s_per_1m": 0.8163,
+      "peak_mem_mb": 457.4883
+    },
+    {
+      "n_features": 60,
+      "n_missing_features": 20,
+      "method": "Median Imputation",
+      "fit_s": 0.3137,
+      "score_s_per_1m": 0.822,
+      "peak_mem_mb": 456.6484
+    },
+    {
+      "n_features": 60,
+      "n_missing_features": 20,
+      "method": "Missing Indicator Imputation",
+      "fit_s": 0.0001,
+      "score_s_per_1m": 0.9909,
+      "peak_mem_mb": 610.3438
+    },
+    {
+      "n_features": 60,
+      "n_missing_features": 20,
+      "method": "Decile Imputation",
+      "fit_s": 0.5281,
+      "score_s_per_1m": 0.7114,
+      "peak_mem_mb": 454.0547
+    },
+    {
+      "n_features": 60,
+      "n_missing_features": 20,
+      "method": "Clustering Imputation",
+      "fit_s": 7.3379,
+      "score_s_per_1m": 1.3138,
+      "peak_mem_mb": 457.7656
+    },
+    {
+      "n_features": 60,
+      "n_missing_features": 20,
+      "method": "Tree Imputation",
+      "fit_s": 1.245,
+      "score_s_per_1m": 1.2413,
+      "peak_mem_mb": 445.8789
+    }
+  ],
+  "pareto": [
+    {
+      "method": "Clustering Imputation",
+      "mean": 0.8998,
+      "std": 0.0021,
+      "count": 8,
+      "fit_s": 7.3379,
+      "score_s_per_1m": 1.3138,
+      "total_seconds_per_1m": 8.6517
+    },
+    {
+      "method": "Decile Imputation",
+      "mean": 0.9024,
+      "std": 0.0013,
+      "count": 8,
+      "fit_s": 0.5281,
+      "score_s_per_1m": 0.7114,
+      "total_seconds_per_1m": 1.2395
+    },
+    {
+      "method": "Mean Imputation",
+      "mean": 0.9012,
+      "std": 0.0014,
+      "count": 8,
+      "fit_s": 0.1171,
+      "score_s_per_1m": 0.8163,
+      "total_seconds_per_1m": 0.9334
+    },
+    {
+      "method": "Median Imputation",
+      "mean": 0.9013,
+      "std": 0.0016,
+      "count": 8,
+      "fit_s": 0.3137,
+      "score_s_per_1m": 0.822,
+      "total_seconds_per_1m": 1.1357
+    },
+    {
+      "method": "Missing Indicator Imputation",
+      "mean": 0.9021,
+      "std": 0.0014,
+      "count": 8,
+      "fit_s": 0.0001,
+      "score_s_per_1m": 0.9909,
+      "total_seconds_per_1m": 0.991
+    },
+    {
+      "method": "Tree Imputation",
+      "mean": 0.8972,
+      "std": 0.002,
+      "count": 8,
+      "fit_s": 1.245,
+      "score_s_per_1m": 1.2413,
+      "total_seconds_per_1m": 2.4862
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+method,mean,std,count,fit_s,score_s_per_1m,total_seconds_per_1m
+Clustering Imputation,0.8998,0.0021,8,7.3379,1.3138,8.6517
+Decile Imputation,0.9024,0.0013,8,0.5281,0.7114,1.2395
+Mean Imputation,0.9012,0.0014,8,0.1171,0.8163,0.9334
+Median Imputation,0.9013,0.0016,8,0.3137,0.822,1.1357
+Missing Indicator Imputation,0.9021,0.0014,8,0.0001,0.9909,0.991
+Tree Imputation,0.8972,0.002,8,1.245,1.2413,2.4862

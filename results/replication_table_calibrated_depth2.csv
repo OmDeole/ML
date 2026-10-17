@@ -1,0 +1,8 @@
+method,mean,std,paper_mean,paper_sd,delta_vs_paper,rank_ours,rank_paper
+Clustering Imputation,0.7796,0.0033,0.7185,0.005,0.0611,2,3
+Decile Imputation,0.7795,0.0033,0.7042,0.0276,0.0753,5,6
+Mean Imputation,0.7795,0.0033,0.7162,0.0044,0.0633,4,4
+Median Imputation,0.7795,0.0033,0.7146,0.0047,0.0649,3,5
+Missing Indicator Imputation,0.7795,0.0018,0.7253,0.0013,0.0542,6,2
+No Missing,0.7866,0.0029,0.7789,0.0013,0.0077,1,1
+Tree Imputation,0.7771,0.0032,0.6974,0.0415,0.0797,7,7

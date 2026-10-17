@@ -1,0 +1,8 @@
+method,mean,sd
+Clustering Imputation,0.7185,0.005
+Decile Imputation,0.7042,0.0276
+Mean Imputation,0.7162,0.0044
+Median Imputation,0.7146,0.0047
+Missing Indicator Imputation,0.7253,0.0013
+No Missing,0.7789,0.0013
+Tree Imputation,0.6974,0.0415

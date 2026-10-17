@@ -1,0 +1,19 @@
+method,feature,imputed_value,n_distinct_values,n_missing
+Mean Imputation,x1,0.001433685072697699,1,24733
+Mean Imputation,x2,0.0008389203576371074,1,24939
+Mean Imputation,x3,0.00562468683347106,1,25035
+Median Imputation,x1,0.005475354380905628,1,24733
+Median Imputation,x2,-0.0038464167155325413,1,24939
+Median Imputation,x3,-0.0002707618405111134,1,25035
+Missing Indicator Imputation,x1,-9999.0,1,24733
+Missing Indicator Imputation,x2,-9999.0,1,24939
+Missing Indicator Imputation,x3,-9999.0,1,25035
+Decile Imputation,x1,0.6792885065078735,1,24733
+Decile Imputation,x2,1.0377931594848633,1,24939
+Decile Imputation,x3,-1.038296103477478,1,25035
+Clustering Imputation,x1,0.006161816418170929,5,24733
+Clustering Imputation,x2,0.0012562295887619257,5,24939
+Clustering Imputation,x3,-0.2298218458890915,5,25035
+Tree Imputation,x1,-1.8263756036758423,1,24733
+Tree Imputation,x2,1.6224188804626465,1,24939
+Tree Imputation,x3,1.9163755178451538,1,25035
